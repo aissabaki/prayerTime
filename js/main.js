@@ -110,9 +110,9 @@ function timeDiff(currTime) {
       let prayerId = prayer.dataset.prayer;
 
       if (prayerId === nxtP) {
-        prayer.innerHTML = `<img class="nxt-prayer-icon" src="../images/next prayer.png" alt="next prayer image">`;
+        prayer.innerHTML = `<img class="nxt-prayer-icon" src="images/next prayer.png" alt="next prayer image">`;
       } else {
-        prayer.innerHTML = `<img class="nxt-prayer-icon" src="../images/not next prayer.png" alt="not next prayer image">`;
+        prayer.innerHTML = `<img class="nxt-prayer-icon" src="images/not next prayer.png" alt="not next prayer image">`;
       }
     });
 
