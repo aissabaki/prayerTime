@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Pray on time</title>
+    <link rel="shortcut icon" href="../images/prayer-time.png" type="image/png">
+    <script
+      src="https://kit.fontawesome.com/b9b530dff2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-img">
+        <img src="../images/icons8-email-50.png" alt="prayer image">
+      </div>
+      <div class="nav-btns">
+        <img src="../images/icons8-menu-arrondi-50.png" class="open-btn" id="open" alt="navbar icon">
+      </div>
+      <nav class="nav-bar" id="nav-bar">
+        <div class="nav-content">
+          <img src="../images/icons8-effacer-50.png" style="width: 25px;"  class="close-btn" id="close" alt="navbar icon">
+          
+          <div class="nav-links">
+            <a href="home.html" class="nav-link" id="navLink">Home</a>
+            <a href="calendar.html" class="nav-link" id="navLink"
+              >Calendar</a
+            >
+            <a href="contact.html" class="nav-link" id="navLink"
+              >Contact us</a
+            >
+          </div>
+        </div>
+      </nav>
+      
+    </header>
+    <div class="main-title">
+      <h1>
+        Contact US
+        <span>
+          fill up the form and our team get back to you within 24 hrs .</span
+        >
+      </h1>
+    </div>
+    <section class="section-center">
+      <div class="contact-card">
+        <div class="contact-details">
+          <h1 class="contact-title">Drop a message</h1>
+          <ul>
+            <li>
+              <img src="../images/icons8-clavier-numérique-25.png" alt="phone icone" /> 
+               +213791699275
+            </li>
+            <li>
+              <img src="../images/icons8-gmail-24.png" alt="email icon" /> 
+               hello@mail.com
+            </li>
+            <li>
+              <img src="../images/icons8-adresse-24.png" alt="address icon" /> 
+               142 street 4022 mecca
+            </li>
+          </ul>
+
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form action="action_page.php">
+            <label for="mesaage-title">Message title</label>
+            <input type="text" id="mesaage-title" />
+
+            <label for="lname">Email address</label>
+            <input type="text" id="lname" />
+
+            <label for="subject">Message</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height: 200px"
+            ></textarea>
+            <button class="btn">send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="/js/main.js"></script>
+  </body>
+</html>
